@@ -1,0 +1,15 @@
+.dashboard_layout {
+    display: grid;
+    justify-content: start;
+    margin: 20px;
+
+    .first_w {
+        grid-row: 1;
+        grid-column: 1;
+        margin-right: 20px;
+    }   
+    .second_w {
+        grid-row: 1;
+        grid-column: 2;
+    }
+}
