@@ -1,0 +1,15 @@
+.component-title {
+    text-align: center;
+    font-weight: 500;
+    font-size: xx-large;
+    margin: 10px;
+}
+.car-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.column {
+    flex: 33.33%;
+}

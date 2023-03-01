@@ -1,0 +1,38 @@
+<mat-card class="car-details-card">
+        <mat-card-header>
+          <img mat-card-image src="./../../../assets/images/{{car.imageTitle}}.jpg" class="card-image"/>
+          <mat-card-title>{{ car.make }} {{ car.model }}</mat-card-title>
+          <mat-card-subtitle>{{ car.carCategory}}</mat-card-subtitle>
+        </mat-card-header>
+        <mat-card-content>
+          <div class="label">
+            <mat-icon matTooltip="Fuel"><span class="material-symbols-outlined">
+                local_gas_station</span></mat-icon>
+            <span>{{ car.fuelSource }}</span>
+          </div>
+          <div class="label">
+            <mat-icon matTooltip="Transmission"><span class="material-symbols-outlined">
+                settings_applications
+                </span></mat-icon>
+            <span>{{ car.transmission}}</span>
+          </div>
+          <div class="label">
+            <mat-icon matTooltip="Year"><span class="material-symbols-outlined">
+                construction
+                </span></mat-icon>
+            <span>{{car.modelYear}}</span>
+          </div>
+          <div class="label">
+            <mat-icon matTooltip="Doors"><span class="material-symbols-outlined">
+                door_front
+                </span></mat-icon>
+            <span>{{car.doors}}</span>
+          </div>
+          <div class="label">
+            <mat-icon matTooltip="Color"><span class="material-symbols-outlined">
+                palette
+                </span></mat-icon>
+            <span>{{car.color}}</span>
+          </div>
+        </mat-card-content>
+</mat-card>

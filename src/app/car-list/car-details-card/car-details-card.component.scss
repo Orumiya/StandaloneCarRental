@@ -1,0 +1,51 @@
+mat-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 300px;
+    margin: 2em;
+    padding: 2em;
+
+    &.car-details-card {
+        background-color: rgb(235, 232, 232);
+        width: 10rem;
+        height: 25rem;
+    }
+    mat-card-header {
+        flex-direction: column;
+    }
+ 
+   .label {
+        display: flex;
+        align-items: center;
+    }
+      
+    .label mat-icon {
+        margin-right: 8px;
+        font-size: 18px;
+    }
+      
+    mat-card-title {
+        font-size: 24px;
+        font-weight: bold;
+        margin-bottom: 8px;
+    }
+      
+    mat-card-subtitle {
+        font-size: 16px;
+        font-weight: normal;
+        margin-bottom: 8px;
+    }
+      
+    mat-card-content {
+        padding: 8px;
+    }
+
+    .mat-card-image {
+       max-width: 22rem;
+       max-height: 20rem;
+    }
+}
+  
+
+  
